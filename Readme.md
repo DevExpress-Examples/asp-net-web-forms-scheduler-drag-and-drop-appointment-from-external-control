@@ -6,7 +6,7 @@
 
 # Scheduler for ASP.NET Web Forms - How to drag-and-drop an appointment from an external control
 
-This example demonstrates how to drag and drop an item from an external control ([ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) in this example) to the [ASPxScheduler](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxScheduler.ASPxScheduler) area to create an appointment. An appointment is created in a time cell to which a corresponding grid item is dropped.
+This example demonstrates how to drag and drop an item from an external control ([ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) in this example) to the [ASPxScheduler](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxScheduler.ASPxScheduler) area to create an appointment. An appointment is created in a time cell in which a corresponding grid item is dropped.
 
 ![](drag-item-from-grid-to-scheduler.png)
   
@@ -18,5 +18,5 @@ This example demonstrates how to drag and drop an item from an external control 
 
 ## More Examples
 
-* [Scheduler for ASP.NET Web Forms - How to drag a row from ASPxGridView to ASPxScheduler](https://github.com/DevExpress-Examples/how-to-drag-a-row-from-aspxgridview-to-aspxscheduler-e4292)
-* [Scheduler for ASP.NET Web Forms - How to drop an appointment from ASPxScheduler to an external control](https://github.com/DevExpress-Examples/how-to-drop-an-appointment-from-aspxscheduler-to-an-external-control-e4708)
+* [How to drag a row from ASPxGridView to ASPxScheduler](https://github.com/DevExpress-Examples/how-to-drag-a-row-from-aspxgridview-to-aspxscheduler-e4292)
+* [How to drop an appointment from ASPxScheduler to an external control](https://github.com/DevExpress-Examples/how-to-drop-an-appointment-from-aspxscheduler-to-an-external-control-e4708)
