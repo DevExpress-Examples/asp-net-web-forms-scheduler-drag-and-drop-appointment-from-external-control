@@ -1,22 +1,21 @@
 <!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128546626/17.2.3%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E4746)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# Scheduler for ASP.NET Web Forms - How to drag-and-drop an appointment from an external control
+
+This example demonstrates how to drag and drop an item from an external control ([ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) in this example) to the [ASPxScheduler](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxScheduler.ASPxScheduler) area to create an appointment. An appointment is created in a time cell in which a corresponding grid item is dropped.
+
+![](drag-item-from-grid-to-scheduler.png)
+  
+## Files to Review
 
 * [SchedulerModel.cs](./CS/App_Code/SchedulerModel.cs) (VB: [SchedulerModel.vb](./VB/App_Code/SchedulerModel.vb))
 * [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
-<!-- default file list end -->
-# How to drop an appointment from an external control onto an ASPxScheduler
 
+## More Examples
 
-<p>This example illustrates how to drag and drop an item from an external control (<a href="http://documentation.devexpress.com/#AspNet/clsDevExpressWebASPxGridViewASPxGridViewtopic">ASPxGridView</a> in this example) to the ASPxScheduler area in order to create an appointment. Note that this example is an extended version of the <a href="https://www.devexpress.com/Support/Center/p/E4292">ASPxScheduler - How to drag a row from ASPxGridView and create an appointment based on its values</a> code example. The advantage of this project is that an appointment is created in a time cell to which a corresponding grid item is dropped, whereas in the previous example, the appointment time is taken from a grid row. <br><br>Here is a screenshot that illustrates a sample application in action during the custom drag-and-drop operation:<br><img src="https://raw.githubusercontent.com/DevExpress-Examples/how-to-drop-an-appointment-from-an-external-control-onto-an-aspxscheduler-e4746/17.2.3+/media/885f5764-10c4-46ab-be38-7a821ec026c1.png"></p>
-<p><br><strong>See Also:</strong></p>
-<p><a href="https://www.devexpress.com/Support/Center/p/E4708">How to drop an appointment from ASPxScheduler to an external control</a></p>
-
-<br/>
-
-
+* [How to drag a row from ASPxGridView to ASPxScheduler](https://github.com/DevExpress-Examples/how-to-drag-a-row-from-aspxgridview-to-aspxscheduler-e4292)
+* [How to drop an appointment from ASPxScheduler to an external control](https://github.com/DevExpress-Examples/how-to-drop-an-appointment-from-aspxscheduler-to-an-external-control-e4708)
