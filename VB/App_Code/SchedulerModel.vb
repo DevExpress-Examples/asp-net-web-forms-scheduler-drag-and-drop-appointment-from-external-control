@@ -64,7 +64,7 @@ Public Class MySimpleAppointmentAdapter
 			If Session(key) Is Nothing Then
 				Session(key) = GenerateDS()
 			End If
-			Return CType(Session(key), BindingList(Of MySimpleAppointment))
+			Return DirectCast(Session(key), BindingList(Of MySimpleAppointment))
 		End Get
 	End Property
 	Public Function GenerateDS() As BindingList(Of MySimpleAppointment)
